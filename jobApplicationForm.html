@@ -12,20 +12,14 @@
 <h2>Job Application</h2>
 <p>&nbsp;</p>
 
-<form role="form" action="http://gclass.alexburner.com/formtest.php" method="post">
+<form  action="https://formspree.io/xrgavkao"  method="POST"> 
 
 	<fieldset class="form-horizontal" >
 		<legend>Account</legend>
 		<div class="form-group">
 			<label class="col-sm-3 control-label">Email</label>
 			<div class="col-sm-9">
-				<input class="form-control" type="text" name="email">
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">Phone Number</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="text" name="phone_number">
+				<input class="form-control" type="text" name="_replyto">
 			</div>
 		</div>
 		<div class="form-group">
@@ -38,12 +32,6 @@
 			<label class="col-sm-3 control-label">Repeat password</label>
 			<div class="col-sm-9">
 				<input class="form-control" type="password" name="repeat_password">
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">SSN</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="password" name="SSN">
 			</div>
 		</div>
 	</fieldset>
@@ -135,10 +123,6 @@
 				<input class="form-control" type="text" name="zip">
 			</div>
 		</div>
-		<div class="form-group">
-			<label class="control-label">Description of your living environment</label>
-			<textarea class="form-control" name="deserve" rows="6"></textarea>
-		</div>
 	</fieldset>
 
 	<p>&nbsp;</p>
@@ -147,21 +131,6 @@
 		<legend>Availability</legend>
 		<div class="form-group row">
 			<label class="col-sm-12 control-label">Are you legally able to be employed in this country?</label>
-			<div class="col-sm-offset-1 col-sm-11">
-				<div class="radio">
-					<label>
-						<input type="radio" name="legal" value="yes">Yes
-					</label>
-				</div>
-				<div class="radio">
-					<label>
-						<input type="radio" name="legal" value="no">No
-					</label>
-				</div>
-			</div>
-		</div>
-		<div class="form-group row">
-			<label class="col-sm-12 control-label">Do you have computer for working?</label>
 			<div class="col-sm-offset-1 col-sm-11">
 				<div class="radio">
 					<label>
@@ -204,7 +173,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="form-group row">
+        <div class="form-group row">
 			<label class="col-sm-12 control-label">What languages below can you use? (check all that apply)</label>
 			<div class="col-sm-offset-1 col-sm-11">
 				<div class="checkbox">
@@ -293,13 +262,23 @@
 		</div>
 	</fieldset>
 
+	<fieldset>
+		<legend>Set Your Password</legend>
+		<div class="form-group">
+			<lable class="control-label">Password</lable>
+			<input type="password" class="form-control" name="pwd" />
+		</div>
+		<div class="form-group">
+			<label class="control-label">Repeat Password</label>
+			<input type="password" class="form-control" name="repeat_password">
+		</div>
+	</fieldset>
+
 	<p>&nbsp;</p>
 
-	<input class="btn btn-primary btn-lg" type="submit" value="!Submit this form!">
-
+	<input class="btn btn-primary btn-lg" type="submit" value="!Submit form!">
+	
 	<p>&nbsp;</p>
-
-
 
 </form>
 </div><!-- close .container -->
